@@ -29,6 +29,7 @@ hr{
   margin-right: auto;
   width: 50%;
 }
+/*aligned the picture to the center of the page.*/
 
 p {
   color: blue;
@@ -44,8 +45,17 @@ body {
 ul {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
-  list-style: inside;
+  list-style-type: none;
+  text-align: center;
 }
+li{
+  display: inline-table;
+  float: left;
+  padding: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*made the unordered list horizontal*/
 
 a:link {
   color: blue;
